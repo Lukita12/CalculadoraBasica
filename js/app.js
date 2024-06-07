@@ -1,10 +1,8 @@
 let operacion = pedirOp('Ingrese que operación desea realizar'); 
- 
-while(operacion != '0') {
-    
-    let numero1 = pedirNum('Ingrese el valor del numero 1'); 
-    let numero2 = pedirNum('Ingrese el valor del numero 2');
+let numero1 = pedirNum('Ingrese el valor del numero 1'); 
+let numero2 = pedirNum('Ingrese el valor del numero 2');
 
+while(operacion != '0') {
     switch(operacion){
         case 'suma': 
             suma(numero1, numero2);
